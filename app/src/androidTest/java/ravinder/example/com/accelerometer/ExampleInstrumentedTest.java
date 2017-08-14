@@ -1,4 +1,4 @@
-package krishna.example.com.accelerometer;
+package ravinder.example.com.accelerometer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("krishna.example.com.accelerometer", appContext.getPackageName());
+        assertEquals("ravinder.example.com.accelerometer", appContext.getPackageName());
     }
 }

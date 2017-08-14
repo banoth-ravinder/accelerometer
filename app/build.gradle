@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "krishna.example.com.accelerometer"
+        applicationId 'ravinder.example.com.accelerometer'
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -17,6 +17,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
@@ -28,4 +30,5 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
     testCompile 'junit:junit:4.12'
     compile files('libs/GraphView-4.2.1.jar')
+    compile files('libs/commons-math-2.2.jar')
 }

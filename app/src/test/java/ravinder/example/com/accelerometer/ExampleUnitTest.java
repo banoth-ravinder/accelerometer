@@ -1,4 +1,4 @@
-package krishna.example.com.accelerometer;
+package ravinder.example.com.accelerometer;
 
 import org.junit.Test;
 
